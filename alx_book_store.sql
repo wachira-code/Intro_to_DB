@@ -38,7 +38,7 @@ CREATE TABLE Order_Details (
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
 );
 
-CREATE TABLE Customer (
+CREATE TABLE customer (
     customer_id INT PRIMARY KEY,
     customer_name VARCHAR(215),
     email VARCHAR(215),
